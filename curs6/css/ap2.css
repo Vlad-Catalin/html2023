@@ -1,0 +1,15 @@
+h1{
+ border-bottom: 5px solid;
+
+}
+div{
+    width: 500px;
+    margin: auto;
+}
+label{
+    display: inline-block;
+    width: 150px;
+}
+input{
+    padding: 10px 5px;
+}

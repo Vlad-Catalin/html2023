@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Formular de contact</h1>
+
+        <form action="" method="post" enctype="multipart/form-data">
+        <label for="oras">Selecteaza oras</label>
+        <select name="oras" id="oras">
+        <option value="1">Bucuresti</option>
+        <option value="2">Brasov</option>
+        <option value="3">Cluj</option>
+        <option value="4">Iasi</option>
+        </select><br>
+        <label for="cursuri">Cursuri dorite</label>
+        <select name="cursuri []" id="cursuri" multiple>
+            <option value="php">PHP</option>
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+        </select>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="10"></textarea><br>
+        <label for="cv">CV</label>
+        <input type="file" name="document" id="cv"> <br>
+        <fieldset>
+            <figcaption>Program cursuri</figcaption>
+            <input type="radio" name="limb" id="dimineata" value="dimineata"> Dimineata
+            <input type="radio" name="limb" id="pranz" value="pranz"> Pranz
+            <input type="radio" name="limb" id="seara" value="seara"> Seara
+        </fieldset><br>
+        <input type="checkbox" name="termeni" id=""> termeni
+        <input type="checkbox" name="abonat" id=""> Abonat <br>
+
+        <input type="submit" value="Trimite"><br>
+        <input type="date" name="" id="">
+
+        </form>
+    </div>
+</body>
+</html>
