@@ -1,0 +1,28 @@
+tbody{
+    background-color: pink;
+}
+
+.rand2{
+    background-color: blue;
+}
+.rand4{
+    background-color: blue;
+}
+table{
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+
+td{
+    padding: 5px;
+}
+
+tfoot{
+    background-color: aqua;
+    color: brown;
+}
+
+.total{
+    background-color: blueviolet;
+}
